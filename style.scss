@@ -1,0 +1,53 @@
+$primary: #f72210;
+$secondary: #ffe400;
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  right: 0;
+  background-color: #f4f5f6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 1px;
+}
+
+.sidebar a {
+  padding: 2px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: white;
+  background-color: black;
+}
+
+input {
+  border: solid 1px #ddd;
+}
+input.search {
+  margin-left: 5px;
+  padding-left: 60px;
+  background-repeat: no-repeat;
+  background-position-y: 0.9px;
+  background-position-x: 200px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADbSURBVDhP5ZI9C4MwEIb7//+BEDgICA6C4OQgBJy6dRIEB6EgCNkEJ4e3iT2oHzH9wHbpAwfyJvfkJDnhYH4kHDVKlSAigSAQoCiBKjVGXvaxFXZnxBQYkSlBICII+22K4jM63rbHSthCSdsskVX9Y6KxR5XJSSpVy6GbpbBKp6aw0BzM0ShCe1iKihMXC6EuQtMQwukzPFu3fFd4+C+/cimUNxy6WQkNnmdzL3NYPfDmLVuhZf2wZYz80qDkKX1St3CXAfVMqq4cz3hTaGEpmctxDPmB0M/fCYEbAwZYyVKYcroAAAAASUVORK5CYII=);
+}
+nav a{
+    color:black;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav .third li:hover{
+    color:red;
+    cursor: pointer;
+}
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
